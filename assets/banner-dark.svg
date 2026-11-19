@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Thái Quang Huy — Software Engineering @ HCMUS, VNU-HCM">
+  <rect x="0.5" y="0.5" width="1199" height="259" rx="16" fill="#161b22" stroke="#30363d"/>
+  <defs>
+    <linearGradient id="name-gradient" gradientUnits="userSpaceOnUse" x1="370" y1="0" x2="830" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#ff7eb6"/>
+    </linearGradient>
+    <clipPath id="typing-clip">
+      <rect class="reveal" x="318" y="160" width="566" height="44"/>
+    </clipPath>
+  </defs>
+  <style>
+    .name { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 64px; font-weight: 600; letter-spacing: 0.5px; }
+    .tagline { font-family: ui-monospace, Consolas, 'Courier New', monospace; font-size: 24px; fill: #8b949e; }
+    .caret { fill: #8b949e; }
+    .reveal { transform-box: fill-box; transform-origin: left center; animation: reveal 7s infinite; }
+    .caret { animation: move 7s infinite, blink 0.8s step-end infinite; }
+    @keyframes reveal {
+      0%   { transform: scaleX(0); animation-timing-function: steps(38, end); }
+      45%  { transform: scaleX(1); }
+      85%  { transform: scaleX(1); animation-timing-function: steps(38, end); }
+      100% { transform: scaleX(0); }
+    }
+    @keyframes move {
+      0%   { transform: translateX(0); animation-timing-function: steps(38, end); }
+      45%  { transform: translateX(560px); }
+      85%  { transform: translateX(560px); animation-timing-function: steps(38, end); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { animation: none; transform: none; }
+      .caret { animation: none; display: none; }
+    }
+  </style>
+  <text class="name" x="600" y="128" text-anchor="middle" fill="url(#name-gradient)">Thái Quang Huy</text>
+  <g clip-path="url(#typing-clip)">
+    <text class="tagline" x="320" y="190" textLength="560" lengthAdjust="spacingAndGlyphs">Software Engineering @ HCMUS, VNU-HCM</text>
+  </g>
+  <rect class="caret" x="322" y="168" width="3" height="28"/>
+</svg>
