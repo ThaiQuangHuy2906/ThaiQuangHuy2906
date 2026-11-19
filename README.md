@@ -10,7 +10,7 @@ I build across the stack, from RAG pipelines and Flutter apps to C++ games.
 - **Now:** machine-learning coursework
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,flutter,cpp,mongodb&theme=dark">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cts%2Cjs%2Cflutter%2Ccpp%2Cmongodb&theme=dark">
   <img src="https://skillicons.dev/icons?i=py,ts,js,flutter,cpp,mongodb&theme=light" alt="Python, TypeScript, JavaScript, Flutter, C++, MongoDB" height="40">
 </picture>
 
