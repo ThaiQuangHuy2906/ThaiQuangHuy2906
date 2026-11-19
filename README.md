@@ -4,9 +4,9 @@
 </picture>
 
 Third-year Software Engineering student at the University of Science, VNU-HCM.
-I build across the stack, from RAG pipelines and Flutter apps to C++ games.
+I build across the stack, from search and recommendation systems to Flutter apps and C++ games.
 
-- **Highlights:** Top 7/100 at MongoDB Hackathon (team) · GDGoC Hackathon 2026
+- **Highlights:** Top 7 Finalist, MongoDB Mini Hackathon 2026 · Top 30, GDGoC Hackathon Vietnam 2026
 - **Now:** machine-learning coursework
 
 <picture>
